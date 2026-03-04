@@ -283,6 +283,7 @@ export default function App() {
                 
                 <div className="space-y-4 mb-12">
                   <div className="flex justify-between items-center p-4 border rounded-lg">
+                    <img src="https://i.ibb.co/M0w7Ksg/image.jpg" alt="Single Pack" className="w-16 h-16 object-cover rounded-lg" referrerPolicy="no-referrer" />
                     <div>
                       <h3 className="font-bold">Single Pack</h3>
                       <p className="text-zinc-500 text-sm">One cloth for on-the-go cleaning.</p>
@@ -290,6 +291,7 @@ export default function App() {
                     <div className="text-lg font-black">$3</div>
                   </div>
                   <div className="flex justify-between items-center p-4 border rounded-lg">
+                    <img src="https://i.ibb.co/XkrsLtN4/image.jpg" alt="3-Pack" className="w-16 h-16 object-cover rounded-lg" referrerPolicy="no-referrer" />
                     <div>
                       <h3 className="font-bold">3-Pack</h3>
                       <p className="text-zinc-500 text-sm">Keep one in your car, bag, and home.</p>
@@ -297,6 +299,7 @@ export default function App() {
                     <div className="text-lg font-black">$9</div>
                   </div>
                   <div className="flex justify-between items-center p-4 border rounded-lg">
+                    <img src="https://i.ibb.co/g1Xcddc/image.jpg" alt="10-Pack" className="w-16 h-16 object-cover rounded-lg" referrerPolicy="no-referrer" />
                     <div>
                       <h3 className="font-bold">10-Pack</h3>
                       <p className="text-zinc-500 text-sm">Stock up and save. Perfect for families.</p>

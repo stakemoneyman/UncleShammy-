@@ -278,23 +278,31 @@ export default function App() {
                   <span className="text-zinc-300">Total Clarity?</span>
                 </h2>
                 <p className="text-zinc-500 mb-10 leading-relaxed">
-                  Join thousands of satisfied customers. Our 3-pack ensures you have an Uncle Shammy in your car, your bag, and your home.
+                  Choose your pack and enjoy a crystal clear view. 
                 </p>
                 
                 <div className="space-y-4 mb-12">
-                  {[
-                    "Free Shipping on all orders",
-                    "3-Pack Premium Microfiber",
-                    "Resealable Travel Pouches",
-                    "100% Satisfaction Guarantee"
-                  ].map((item, i) => (
-                    <div key={i} className="flex items-center gap-3 text-sm font-bold">
-                      <div className="w-5 h-5 bg-zinc-900 text-white rounded-full flex items-center justify-center">
-                        <Zap size={10} className="fill-white" />
-                      </div>
-                      {item}
+                  <div className="flex justify-between items-center p-4 border rounded-lg">
+                    <div>
+                      <h3 className="font-bold">Single Pack</h3>
+                      <p className="text-zinc-500 text-sm">One cloth for on-the-go cleaning.</p>
                     </div>
-                  ))}
+                    <div className="text-lg font-black">$3</div>
+                  </div>
+                  <div className="flex justify-between items-center p-4 border rounded-lg">
+                    <div>
+                      <h3 className="font-bold">3-Pack</h3>
+                      <p className="text-zinc-500 text-sm">Keep one in your car, bag, and home.</p>
+                    </div>
+                    <div className="text-lg font-black">$9</div>
+                  </div>
+                  <div className="flex justify-between items-center p-4 border rounded-lg">
+                    <div>
+                      <h3 className="font-bold">10-Pack</h3>
+                      <p className="text-zinc-500 text-sm">Stock up and save. Perfect for families.</p>
+                    </div>
+                    <div className="text-lg font-black">$20</div>
+                  </div>
                 </div>
 
                 <div className="relative group">
@@ -316,8 +324,7 @@ export default function App() {
                 viewport={{ once: true }}
                 className="relative z-10"
               >
-                <div className="text-6xl font-black tracking-tighter mb-4">$19.99</div>
-                <div className="text-zinc-400 font-bold uppercase tracking-widest text-xs mb-8">Limited Time 3-Pack Offer</div>
+                <div className="text-zinc-400 font-bold uppercase tracking-widest text-xs mb-8">CHOOSE YOUR PACK</div>
                 
                 <div className="aspect-square bg-white/5 rounded-3xl border border-white/10 p-8 flex items-center justify-center">
                   <img 
